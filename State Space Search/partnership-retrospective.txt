@@ -1,0 +1,13 @@
+(a) Group members:
+
+Name: Sheng Yu	     Student Number: 1736385	UID: shengy23
+
+Name: Qiaoxue Liu    Student Number: 1738204	UID: qiaoxl
+
+(b) How do we divided up the work in Part 2.
+
+We discussed together about the UCS.py, then we held a Zoom meeting where we modified the AStar.py together. 
+
+Then, we talked the EightPuzzle.py problem and, I (Sheng Yu) wrote the EightPuzzleWithHamming.py and the EightPuzzleWithManhattan.py. 
+
+Later, we talked over this in another Zoom meeting and wrote the HeuristicSearches.pdf together.

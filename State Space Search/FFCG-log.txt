@@ -1,0 +1,31 @@
+Welcome to ItrDFS
+Initial State:
+[['F', 'f', 'c', 'g'] ,[]]
+len(OPEN)=1; len(CLOSED)=0; COUNT = 0
+OPEN is now: [['f', 'g'] ,['F', 'c']]
+len(OPEN)=1; len(CLOSED)=1; COUNT = 1
+OPEN is now: [['F', 'f', 'g'] ,['c']]
+len(OPEN)=1; len(CLOSED)=2; COUNT = 2
+OPEN is now: [['g'] ,['F', 'f', 'c']], [['f'] ,['F', 'c', 'g']]
+len(OPEN)=2; len(CLOSED)=3; COUNT = 3
+OPEN is now: [['F', 'c', 'g'] ,['f']], [['f'] ,['F', 'c', 'g']]
+len(OPEN)=2; len(CLOSED)=4; COUNT = 4
+OPEN is now: [['c'] ,['F', 'f', 'g']], [['f'] ,['F', 'c', 'g']]
+len(OPEN)=2; len(CLOSED)=5; COUNT = 5
+OPEN is now: [['F', 'c'] ,['f', 'g']], [['F', 'f', 'c'] ,['g']], [['f'] ,['F', 'c', 'g']]
+len(OPEN)=3; len(CLOSED)=6; COUNT = 6
+OPEN is now: [[] ,['F', 'f', 'c', 'g']], [['F', 'f', 'c'] ,['g']], [['f'] ,['F', 'c', 'g']]
+len(OPEN)=3; len(CLOSED)=7; COUNT = 7
+Congratulations on successfully moving Farmer, Fox, Chicken and Grain across the river!
+Solution path: 
+[['F', 'f', 'c', 'g'] ,[]]
+[['f', 'g'] ,['F', 'c']]
+[['F', 'f', 'g'] ,['c']]
+[['g'] ,['F', 'f', 'c']]
+[['F', 'c', 'g'] ,['f']]
+[['c'] ,['F', 'f', 'g']]
+[['F', 'c'] ,['f', 'g']]
+[[] ,['F', 'f', 'c', 'g']]
+Length of solution path found: 7 edges
+7 states expanded.
+MAX_OPEN_LENGTH = 3
